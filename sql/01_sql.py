@@ -14,6 +14,7 @@ cursor.execute("""CREATE TABLE population
                 (city TEXT, state TEXT, population INT)
                 """)
 
-#close the database connection
+# Commit the change
 conn.commit()
+#close the database connection
 conn.close()
